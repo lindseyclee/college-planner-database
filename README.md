@@ -9,9 +9,12 @@ This application aims to help students determine what classes are offered at eac
 ## Features:
 
 The user can:
-* Create a Student or Professor Account
+* Create a Student or Professor Account / Log-In
 * Browse colleges and their degree programs (we only have Chapman University accessible for test purposes)
-* Look up all the courses a professor teaches
+* Look up a professor and view their classes taught
+* Add list of classes to register for
+* Log out
+* Activate/Deactivate account
 
 ## Tables:
 
@@ -25,6 +28,10 @@ The user can:
 
 * **Front End:** stream lit to build the user application
 * **Back End:** python and MySQL
+
+## How to run:
+
+streamlit run main.py
 
 ## Additional Notes:
 
